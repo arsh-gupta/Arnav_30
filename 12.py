@@ -1,4 +1,4 @@
-a=(input('Enter a string'))
+a=input('Enter a string: ')
 c=list(a)
 sum=0
 print(c)
@@ -12,6 +12,6 @@ for i in c:
         pass
 print(sum)
 import random
-q=random.randint(20,100)
+x=random.randint(20,100)
 
-print(q)
+print(x)
